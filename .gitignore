@@ -40,3 +40,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/main/java/com/java/javaproject2_1/ByeClass.java
+/src/main/java/com/java/javaproject2_1/ByeClassTest.java
