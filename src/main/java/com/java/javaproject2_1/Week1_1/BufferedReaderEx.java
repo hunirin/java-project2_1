@@ -9,8 +9,10 @@ public class BufferedReaderEx {
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is); // 카트 가지고 오기
 
-        String line = br.readLine();
-        System.out.println("line =" + line);
+        String line1 = br.readLine();
+        System.out.println("line1 =" + line1);
+        String line2 = br.readLine();
+        System.out.println("line2 =" + line2);
     }
 
 }
