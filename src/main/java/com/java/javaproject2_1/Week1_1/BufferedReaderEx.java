@@ -9,10 +9,14 @@ public class BufferedReaderEx {
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is); // 카트 가지고 오기
 
-        String line1 = br.readLine();
-        System.out.println("line1 =" + line1);
-        String line2 = br.readLine();
-        System.out.println("line2 =" + line2);
+        System.out.println("line1 =" + br.readLine());
+        System.out.println("line2 =" + br.readLine());
+
+    }
+    public void plusTwoNumbers() throws IOException {
+        InputStreamReader is = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(is); // 카트 가지고 오기
+        System.out.println(br.read() + br.read());
     }
 
 }
