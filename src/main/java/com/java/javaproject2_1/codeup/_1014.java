@@ -2,9 +2,14 @@ package com.java.javaproject2_1.codeup;
 
 import java.util.Scanner;
 
-public class _1013 {
+public class _1014 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("%d %d", sc.nextInt(), sc.nextInt());
+
+        String val1 = sc.next();
+        String val2 = sc.next();
+
+
+        System.out.printf("%s %s", val2, val1);
     }
 }
