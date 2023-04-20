@@ -9,7 +9,13 @@ public class _1014 {
         String val1 = sc.next();
         String val2 = sc.next();
 
-
         System.out.printf("%s %s", val2, val1);
+
+
+        char val3 = sc.next().charAt(0);
+        char val4 = sc.next().charAt(0);
+
+        System.out.printf("%s %s", val4, val3);
+
     }
 }
