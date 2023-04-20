@@ -1,8 +1,8 @@
-package com.java.javaproject2_1.Week1_2;
+package com.java.javaproject2_1.Week1.day3;
 
 public class ScannerExTest {
     public static void main(String[] args) {
         ScannerEx se = new ScannerEx();
-        se.readTwoNumberAndPlus();
+        se.readTwoNumbersAndPlus();
     }
 }
