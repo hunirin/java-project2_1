@@ -12,4 +12,5 @@ public class PrintfNextLineMultiTable {
         System.out.printf("%d * %d = %d\n", 2, 8, 2*8);
         System.out.printf("%d * %d = %d\n", 2, 9, 2*9);
     }
+
 }
