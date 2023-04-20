@@ -15,7 +15,7 @@ public class _1014 {
         char val3 = sc.next().charAt(0);
         char val4 = sc.next().charAt(0);
 
-        System.out.printf("%s %s", val4, val3);
+        System.out.printf("%c %c", val4, val3);
 
     }
 }
