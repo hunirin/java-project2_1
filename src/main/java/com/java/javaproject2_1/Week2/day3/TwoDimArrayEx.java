@@ -11,6 +11,9 @@ public class TwoDimArrayEx {
         System.out.println(Arrays.toString(arr[2]));
         System.out.println("----------------");
     }
+
+    //행 번호를 넣으면 그 행을 1로 값을 넣어주는 static method
+
     public static void main(String[] args) {
         int[][] arr = new int[3][3];
         printArray(arr);
