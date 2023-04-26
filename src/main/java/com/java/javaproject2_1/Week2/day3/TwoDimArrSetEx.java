@@ -16,13 +16,13 @@ public class TwoDimArrSetEx {
         //행 번호를 넣으면 그 행을 1로 값을 넣어주는 static method
 
         public static void main(String[] args) {
-            System.out.printf("행 번호를 입력하시오.(1~5)\n");
+            System.out.printf("행 번호를 입력하시오.(0~4)\n");
             Scanner sc = new Scanner(System.in);
             int num = sc.nextInt();
 
             int[][] arr = new int[5][5];
 
-            arr[num-1][0] = 1;
+            arr[num][0] = 1;
             printArray(arr);
 
             /*
