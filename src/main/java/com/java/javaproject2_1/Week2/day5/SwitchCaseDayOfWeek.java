@@ -3,7 +3,7 @@ package com.java.javaproject2_1.Week2.day5;
 public class SwitchCaseDayOfWeek {
     public static void main(String[] args) {
         int dayOfWeek = 2; // 1: 월요일, 2: 화요일 , ..., 7: 일요일
-
+        // break; 안쓰면 그 이후가 다 출력됨
         switch (dayOfWeek) {
             case 1:
                 System.out.println("월요일");
