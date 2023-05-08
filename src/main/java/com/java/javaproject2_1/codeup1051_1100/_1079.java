@@ -6,8 +6,14 @@ public class _1079 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String cha = sc.next();
-
-
+        while(true) {
+            char cha = sc.next().charAt(0);
+            if(cha == 'q') {
+                System.out.println(cha);
+                break;
+            } else {
+                System.out.println(cha);
+            }
+        }
     }
 }
