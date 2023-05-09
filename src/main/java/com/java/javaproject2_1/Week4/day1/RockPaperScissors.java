@@ -23,8 +23,8 @@ public class RockPaperScissors {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        RockPaperScissors rpc = new RockPaperScissors();
-        System.out.println(rpc.play(sc.nextInt(), sc.nextInt()));
+        RockPaperScissors rps = new RockPaperScissors();
+        System.out.println(rps.play(sc.nextInt(), sc.nextInt()));
 
     }
 }
