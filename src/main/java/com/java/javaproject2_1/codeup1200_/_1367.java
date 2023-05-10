@@ -16,6 +16,7 @@ public class _1367 {
             for (int j = 0; j < n; j++) {
                 System.out.printf("*");
             }
+
             System.out.println("");
         }
     }
