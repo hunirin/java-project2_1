@@ -29,7 +29,7 @@ public class TypeCasting {
         System.out.println(result2);
         // 결과: 3.22222222
 
-//      float는 소수점 8자리까지
+//      float는 유효자릿수가 7
 //      double은 소수점 15자리까지
 
 
