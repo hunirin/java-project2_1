@@ -2,7 +2,7 @@ package com.java.javaproject2_1.Week5.day1;
 
 import java.util.Arrays;
 
-public class BubbleSort03 {
+public class BubbleSort1_03 {
     // OOP 적용 - 한개의 라운드를 정렬하는 메소드 분리
     public int[] sortARound(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
@@ -16,8 +16,8 @@ public class BubbleSort03 {
     }
 
     public static void main(String[] args) {
-        BubbleSort03 bubbleSort03 = new BubbleSort03();
-        int[] arr = {7, 2 , 3, 9, 28, 1};
+        BubbleSort1_03 bubbleSort03 = new BubbleSort1_03();
+        int[] arr = {7, 2, 3, 9, 28, 1};
 
         for (int j = 0; j < arr.length; j++) {
             arr = bubbleSort03.sortARound(arr);
